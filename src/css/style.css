@@ -1,0 +1,121 @@
+@font-face { 
+    font-family: "Montserrat";
+    src: url(/src/font/Montserrat-Regular.ttf) format(truetype);
+
+}
+
+a:hover {
+    color:#E5EA00
+}
+ul {
+    list-style-type: none;
+    display: inline-flex; ;
+}
+
+header {
+    background-color: rgba(53, 71, 97, 60%);
+    width: 100%;
+    padding: 15px 0;
+    z-index: 100;
+    -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    font-family: Montserrat;
+    font-weight:540;
+    font-size: 18px;
+    position: fixed;
+}
+
+.header_inner {
+    display: block;
+    justify-content:center;
+    align-items: center;
+    
+  }
+
+.header_logo {
+    margin-left: 30px;
+}
+
+.Header_Works {
+    margin-left: 31% ;
+    padding-right: 77px;
+    color: #ffff;
+    text-decoration-color: #ffff;
+    text-decoration: none;
+}
+.Header_Pricing {
+    align-items:center;
+    padding-right: 77px;
+    color: #ffff;
+    text-decoration-color: #ffff;
+    text-decoration: none;
+}
+.Header_Contacts {
+    text-decoration-color: #ffff;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.Header_lang_eng {
+    font-size: 15px;
+    color: #ffff;
+    text-decoration-color: #ffff;
+    text-decoration: none;
+}
+.Header_lang_ru {
+    margin-left: 32%;
+    color: #ffff;
+    font-size: 15px;
+    text-decoration-color: #ffff;
+    text-decoration: none;
+}
+.Header_lang {
+    color: #ffff;
+    font-size: 15px;
+}
+
+.Main_page {
+    background-image: url(/src/img/bg.jpg);
+    height: 900px;
+    width: 100%;
+    align-self:center;
+}
+
+.sim-slider-list {
+    position: absolute;
+    top: 200px ;
+    padding: 0px 0px 313px 250px;
+
+}
+.screen {
+    opacity: 1;
+    position:absolute;
+    padding: 60px 0 0 20px;
+}
+.sim-slider-element {
+    opacity: 0;
+    position: absolute;
+    padding-top: 40px;
+}
+.sim-slider-arrow-left {
+    position: absolute;
+    top: 60%;
+    justify-items: center;
+   left: 215px;
+
+}
+.sim-slider-arrow-right {
+    position: absolute;
+    top: 60%;
+    right: 230px;
+}
+.slider_text {
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    left: 43%;
+    font-family: Montserrat-Regular;
+    font-size: 40px;
+    color: #ffff;
+    text-shadow: 1px 1px 2px black, ;
+}
